@@ -1,0 +1,14 @@
+    <button class="edit" *ngIf="isUpdate==true" (click)="ShowUpdate()">edit</button>
+    <div class="update" *ngIf="isUpdate==false">
+        
+        <label>heading</label>
+        <input [(ngModel)]="galleryimage[1].Heading" type="text">
+        <label>subheading</label>
+        <input [(ngModel)]="galleryimage[1].SubHeading" type="text">
+        <button  (click)="HideUpdate()">update</button>
+    </div>
+    <img [src]="galleryimage[1].ImageURL"/>
+    <h3 (click)="ShowAlertMessage()">{{galleryimage[1].Heading}}</h3>
+    <h4>{{galleryimage[1].SubHeading}}</h4>
+    
+    

@@ -1,0 +1,48 @@
+:host{
+    background-color: darkcyan;
+    height:300px;
+    width:100%;
+    display:block;
+    position: relative;
+    overflow: hidden;
+}
+img{
+    width:100%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+h3{
+    color: azure;
+    z-index: 10;
+    position: absolute;
+    bottom: 50px;
+    left:20px;
+}
+h4{
+    color:aquamarine;
+    z-index: 10;
+    bottom: 10px;
+    position: absolute;
+    left:20px;
+}
+.edit{
+    
+    top:0px;
+    right:0px;
+    z-index: 10;
+    position: absolute;
+}
+.update{
+    position: absolute;
+    width:50px;
+    height:100px;
+    right:200px;
+    top:10px;
+    border:1px solid black;
+    
+    color:aquamarine;
+    z-index: 10;
+    
+
+}
